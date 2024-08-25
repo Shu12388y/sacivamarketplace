@@ -31,6 +31,9 @@ const MarketPlaceSchema = new mongoose.Schema({
     productImages:{
         type:String,
         required:true
+    },
+    Cluster:{
+        type:String
     }
 
 },{timestamps:true});
